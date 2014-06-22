@@ -1,0 +1,15 @@
+sample_app_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SampleAppBundle:Default:index }
+
+_index:
+    pattern: /Index
+    defaults: { _controller: SampleAppBundle:Hello:Index }
+
+_confirm:
+    pattern: /Confirm
+    defaults: { _controller: SampleAppBundle:Hello:Confirm }
+
+_result:
+    pattern: /Result
+    defaults: { _controller: SampleAppBundle:Hello:Result }
